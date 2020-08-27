@@ -127,7 +127,7 @@ class Tile:
         if sprite:
             px, py = pos
             rect = pygame.Rect(pos, (16, 16))
-            pygame.draw.rect(win, (170,170,170), rect)
+            pygame.draw.rect(win, (33,33,33), rect)
 
         if sprite is not zero:
             win.blit(sprite, pos)
